@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="/project-1/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Resume Builder</h1>
+    </header>
+    <section>
+        <form id="resumeForm">
+            <h2>Enter Your Details</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="education">Education:</label>
+            <textarea id="education" name="education" required></textarea><br>
+            
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" required></textarea><br>
+            
+            <label for="experience">Experience:</label>
+            <textarea id="experience" name="experience" required></textarea><br>
+            
+            <input type="submit" value="Generate Resume">
+        </form>
+        </section>
+        <section>
+            <h2>Your Resume</h2>
+            <div id=""resumeOutput">
+            <p><strong>Name:</strong> [Name]</p>
+            <p><strong>Education:</strong>[Education]</p>
+            <P><strong>Skills:</strong>[Skills]</P>
+            <p><strong>Experience:</strong>[Experience]</p>
+        </div>
+        </section>
+</body>
+</html>
